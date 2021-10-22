@@ -12,11 +12,34 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
+.main-bg-color {
+  padding-top: 20px;
+  list-style-type: none;
+
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav-border {
+  border-bottom: 2px solid grey;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.bottom-nav-wrapper {
+  position: fixed;
+  font-size: 0.85em;
+  bottom: 0;
+}
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 38px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .left-side {
@@ -46,10 +69,6 @@ body {
 }
 .nav-link-wrapper a:hover {
   color: black;
-}
-
-.active-nav-link {
-  border-bottom: 1px solid black;
 }
 
 .active-nav-link a {
