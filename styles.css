@@ -1,11 +1,13 @@
 /*Over-all needed styles*/
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@600&family=Russo+One&display=swap);
 html * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Dosis", serif;
+  color: whitesmoke;
 }
 
 body {
   margin: 0px;
-  font-family: sans-serif;
+  background-color: rgb(54, 51, 51);
 }
 
 .container {
@@ -15,21 +17,26 @@ body {
 .main-bg-color {
   padding-top: 20px;
   list-style-type: none;
-
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
 
+.round {
+  border-radius: 50%;
+}
+
 .top-nav-border {
-  border-bottom: 2px solid grey;
+  border-bottom: 2.5px solid lightgrey;
+  border-radius: 2px;
   margin-left: 60px;
   margin-right: 60px;
+  color: whitesmoke;
 }
 
 .bottom-nav-wrapper {
   position: fixed;
-  font-size: 0.85em;
+  font-size: 1em;
   bottom: 0;
 }
 
@@ -40,15 +47,21 @@ body {
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  color: whitesmoke;
+}
+
+.right-side {
+  font-size: 1.5em;
 }
 
 .left-side {
   display: flex;
+  font-weight: 150;
 }
 
 .nav-wrapper > .left-side > div {
   margin-right: 20px;
-  font-size: 0.9em;
+  font-size: 1.2em;
   text-transform: uppercase;
 }
 
@@ -65,16 +78,93 @@ body {
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 .nav-link-wrapper a:hover {
-  color: black;
+  color: white;
 }
 
 .active-nav-link a {
-  color: black !important;
+  color: white !important;
 }
 
 /*Index styles*/
+.image-stack {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.image-stack > .top-image {
+  grid-column: 8 / span 8;
+  grid-row: 1;
+  padding-top: 10%;
+  z-index: 1;
+}
+
+.image-stack > .top-image > img {
+  width: 600px;
+  border-radius: 5% 20%;
+  filter: drop-shadow(0 0 10px rgb(58, 57, 57));
+}
+
+.image-stack > .bottom-image {
+  grid-column: 9 / -2;
+  grid-row: 1;
+  width: 550px;
+  height: 450px;
+  border-radius: 5% 20%;
+  background-color: rgb(2, 105, 105);
+}
+
+.image-stack > .introduction-phrase {
+  /*circle build*/
+  grid-column: 2 / span 3;
+  grid-row: 1;
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
+  background-color: rgb(150, 144, 144);
+  display: table-cell;
+  /*text*/
+  line-height: 30px;
+  font-size: 1.3em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.image-stack > .introduction-phrase > .text-wrap {
+  margin-top: 90px;
+}
+
+.image-stack > .introduction-phrase > .text-wrap > h1 {
+  font-family: "Russo One" !important;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.text-wrap > a {
+  color: black !important;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.text-wrap > a:hover {
+  cursor: pointer;
+  color: white !important;
+  text-decoration: underline;
+  font-size: 25px;
+  font-size-adjust: 20px;
+}
+
+.image-stack > .intro-decor {
+  width: 180px;
+  height: 180px;
+  background-color: darkcyan;
+  filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
+}
+
 /*Resume styles*/
 /*Portfolio styles*/
