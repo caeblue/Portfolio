@@ -348,3 +348,11 @@ body {
   position: relative;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
+
+/* resume styles */
+.resume-pdf {
+  display: table;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
