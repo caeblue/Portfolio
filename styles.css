@@ -178,16 +178,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(auto);
-  margin-left: 200px;
 }
 .column-1 {
-  position: flex;
   grid-area: auto;
   align-content: center;
   font-size: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .column-1 > h1 {
+  font-family: fantasy;
+  font-weight: lighter;
   margin-left: 10px;
 }
 
@@ -195,9 +198,14 @@ body {
   grid-area: auto;
   align-content: center;
   font-size: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .column-2 > h1 {
+  font-family: fantasy;
+  font-weight: lighter;
   margin-left: 10px;
 }
 
@@ -210,10 +218,12 @@ body {
 }
 
 .eri-button {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
   font-size: 2rem;
   padding: 15px;
-  width: 200px;
-  margin-left: 200px;
+  margin-left: 640px;
   text-align: center;
   margin-bottom: 10px;
   text-decoration: none;
@@ -221,16 +231,16 @@ body {
   color: white;
   background-color: rgb(95, 95, 95);
   border-radius: 10px;
-  margin-bottom: 10px;
   transition: 0.5s;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
 .findhorn-button {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
   font-size: 2rem;
   padding: 15px;
-  width: 200px;
-  margin-left: 300px;
   text-align: center;
   margin-bottom: 10px;
   text-decoration: none;
@@ -238,7 +248,6 @@ body {
   color: white;
   background-color: rgb(95, 95, 95);
   border-radius: 10px;
-  margin-bottom: 10px;
   transition: 0.5s;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
@@ -248,6 +257,7 @@ body {
   color: white !important;
   text-decoration: underline;
   font-size: 35px;
+  text-decoration: none;
 }
 
 .findhorn-button:hover {
@@ -261,21 +271,80 @@ body {
   text-decoration: none;
 }
 
-.eri-image {
+.eri-images {
   margin-top: 15px;
   padding: 10px;
   align-items: center;
-  margin-left: 100px;
   position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+  width: auto;
+  height: fit-content;
 }
 
-.findhorn-image {
-  position: absolute;
+.eri-images > .eri-image {
+  width: auto;
+  height: 350px;
   margin-top: 15px;
   padding: 10px;
   align-items: center;
-  margin-left: 150px;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-/*Resume styles*/
-/*Portfolio styles*/
+.eri-images > .group-photo {
+  width: auto;
+  height: 350px;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.eri-images > .peatlands {
+  width: auto;
+  height: 350px;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.findhorn-images {
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.findhorn-images > .findhorn-image {
+  width: auto;
+  height: 350px;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.findhorn-images > .findhorn-lodge {
+  width: auto;
+  height: 350px;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.findhorn-images > .findhorn-waste {
+  width: auto;
+  height: 350px;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  position: relative;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
