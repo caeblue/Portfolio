@@ -10,6 +10,10 @@ a:visited {
   color: whitesmoke;
 }
 
+a {
+  color: whitesmoke;
+}
+
 body {
   margin: 0px;
   background-color: rgb(54, 51, 51);
