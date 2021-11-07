@@ -93,7 +93,6 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
-  padding-top: 70px;
   padding-left: 200px;
 }
 
