@@ -276,8 +276,6 @@ body {
   align-items: center;
   position: relative;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
-  width: auto;
-  height: fit-content;
 }
 
 .eri-images > .eri-image {
