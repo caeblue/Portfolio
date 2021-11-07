@@ -117,8 +117,11 @@ body {
   margin-right: 20px;
   column-count: 3;
   width: 95%;
-  display: grid;
-  column-count: auto;
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: auto;
 }
 
