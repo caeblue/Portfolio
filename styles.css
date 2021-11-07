@@ -119,7 +119,7 @@ body {
   background-color: rgb(2, 105, 105);
 }
 
-.image-stack > .introduction-phrase {
+.introduction-phrase {
   /*circle build*/
   grid-column: 1 / span 2;
   grid-row: 1;
@@ -135,17 +135,17 @@ body {
   text-align: center;
 }
 
-.image-stack > .introduction-phrase > .text-wrap {
+.introduction-phrase > .text-wrap {
   margin-top: 150px;
 }
 
-.image-stack > .introduction-phrase > .text-wrap > h1 {
+.introduction-phrase > .text-wrap > h1 {
   font-family: "Russo One" !important;
   font-weight: lighter;
   font-size: 2em;
 }
 
-.image-stack > .introduction-phrase > .text-wrap > h2 {
+.introduction-phrase > .text-wrap > h2 {
   font-family: "Russo One" !important;
   font-weight: lighter;
   font-size: 1.5em;
@@ -163,13 +163,6 @@ body {
   color: white !important;
   text-decoration: underline;
   font-size: 26px;
-}
-
-.image-stack > .intro-decor {
-  width: 200px;
-  height: 200px;
-  background-color: darkcyan;
-  filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
 }
 
 /*Research styles*/
