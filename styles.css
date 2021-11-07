@@ -1,7 +1,13 @@
 /*Over-all needed styles*/
+
 @import url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@600&family=Russo+One&display=swap);
 html * {
   font-family: "Dosis", serif;
+}
+
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 body {
@@ -28,6 +34,7 @@ body {
 .top-nav-border {
   border-bottom: 2.5px solid lightgrey;
   border-radius: 2px;
+  font-size: 0.9em;
   margin-left: 60px;
   margin-right: 60px;
   color: whitesmoke;
@@ -35,7 +42,7 @@ body {
 
 .bottom-nav-wrapper {
   position: fixed;
-  font-size: 1em;
+  font-size: 0.8em;
   bottom: 0;
   color: whitesmoke;
 }
@@ -51,7 +58,7 @@ body {
 }
 
 .right-side {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .left-side {
@@ -94,11 +101,11 @@ body {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
   padding-left: 200px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .image-stack > .top-image {
-  grid-column: 7 / span 8;
+  grid-column: 6 / span 8;
   grid-row: 1;
   z-index: 1;
 }
@@ -118,12 +125,19 @@ body {
   background-color: rgb(2, 105, 105);
 }
 
+.image-stack > .intro-decor {
+  width: 100px;
+  height: 100px;
+  background-color: darkcyan;
+  filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
+}
+
 .image-stack > .introduction-phrase {
   /*circle build*/
   grid-column: 1 / span 2;
   grid-row: 1;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
   background-color: rgb(92, 92, 92);
   display: table-cell;
@@ -136,6 +150,7 @@ body {
 
 .image-stack > .introduction-phrase > .text-wrap {
   margin-top: 100px;
+  color: whitesmoke;
 }
 
 .image-stack > .introduction-phrase > .text-wrap > h1 {
@@ -167,6 +182,7 @@ body {
 /*Research styles*/
 
 .research-content-wrapper {
+  color: whitesmoke;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(auto);
@@ -174,10 +190,11 @@ body {
 .column-1 {
   grid-area: auto;
   align-content: center;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .column-1 > h1 {
@@ -189,10 +206,11 @@ body {
 .column-2 {
   grid-area: auto;
   align-content: center;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .column-2 > h1 {
