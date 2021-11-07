@@ -94,6 +94,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
   padding-left: 200px;
+  padding-top: 20px;
 }
 
 .image-stack > .top-image {
@@ -103,7 +104,7 @@ body {
 }
 
 .image-stack > .top-image > img {
-  width: 500px;
+  width: 600px;
   border-radius: 5% 20%;
   filter: drop-shadow(0 0 10px rgb(58, 57, 57));
 }
