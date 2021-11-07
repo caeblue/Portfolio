@@ -119,7 +119,7 @@ body {
   background-color: rgb(2, 105, 105);
 }
 
-.introduction-phrase {
+.image-stack > .introduction-phrase {
   /*circle build*/
   grid-column: 1 / span 2;
   grid-row: 1;
@@ -135,17 +135,17 @@ body {
   text-align: center;
 }
 
-.introduction-phrase > .text-wrap {
+.image-stack > .introduction-phrase > .text-wrap {
   margin-top: 150px;
 }
 
-.introduction-phrase > .text-wrap > h1 {
+.image-stack > .introduction-phrase > .text-wrap > h1 {
   font-family: "Russo One" !important;
   font-weight: lighter;
   font-size: 2em;
 }
 
-.introduction-phrase > .text-wrap > h2 {
+.image-stack > .introduction-phrase > .text-wrap > h2 {
   font-family: "Russo One" !important;
   font-weight: lighter;
   font-size: 1.5em;
