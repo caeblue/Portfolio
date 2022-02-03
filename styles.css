@@ -211,21 +211,34 @@ body {
 
 /*Research styles*/
 
+.top-half{
+  position:absolute;
+  left: 0px;
+  top:100px;
+  height: 50%;
+  width: 100%;
+}
+  
+.bottom-half{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 50%;
+  width: 100%;
+}
+
 .research-content-wrapper {
   color: whitesmoke;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(auto);
+  
 }
 .column-1 {
   float: left;
   width: 40%;
-  grid-area: auto;
-  align-content: center;
   font-size: 1.4em;
   left: 10px;
   text-align: center;
   color: whitesmoke;
+  padding-left: 50px;
 }
 
 .column-1 > h1 {
@@ -235,18 +248,16 @@ body {
 }
 
 .column-2 {
+  padding-right: 50px;;
   float: right;
   width: 40%;
   right: 10px;
-  grid-area: auto;
-  align-content: center;
   font-size: 1.4em;
   text-align: center;
   color: whitesmoke;
 }
 
 .column-2 > h1 {
-  padding-top: 100px;
   font-family: fantasy;
   font-weight: lighter;
   margin-left: 10px;
@@ -256,9 +267,6 @@ body {
   border-bottom: 1px solid white;
 }
 
-.row {
-  grid-template-areas: "left right";
-}
 
 .eri-button {
   display: block;
@@ -274,7 +282,8 @@ body {
   background-color: rgb(95, 95, 95);
   border-radius: 10px;
   transition: 0.5s ease;
-  border: 5px solid darkcyan;
+  outline-color: rgb(245, 245, 245);
+  outline-style: inset;
   filter: drop-shadow(10px 6px 10px rgba(29, 28, 28, 0.589));
 }
 
@@ -292,7 +301,8 @@ body {
   background-color: rgb(95, 95, 95);
   border-radius: 10px;
   transition: 0.5s ease;
-  border: 5px solid darkcyan;
+  outline-color: rgb(245, 245, 245);
+  outline-style: inset;
   filter: drop-shadow(10px 6px 10px rgba(29, 28, 28, 0.589));
 }
 
@@ -322,9 +332,9 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-.eri-images > .eri-image {
-  width: auto;
-  height: 300px;
+.eri-images > img {
+  width: 320px;
+  height: auto;
   margin-top: 15px;
   padding: 10px;
   align-items: center;
@@ -332,25 +342,6 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-.eri-images > .group-photo {
-  width: auto;
-  height: 300px;
-  margin-top: 15px;
-  padding: 10px;
-  align-items: center;
-  position: relative;
-  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
-}
-
-.eri-images > .peatlands {
-  width: auto;
-  height: 300px;
-  margin-top: 15px;
-  padding: 10px;
-  align-items: center;
-  position: relative;
-  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
-}
 
 .findhorn-images {
   margin-top: 15px;
@@ -360,9 +351,10 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-.findhorn-images > .findhorn-image {
-  width: auto;
-  height: 300px;
+
+.findhorn-images > img {
+  width: 320px;
+  height: auto;
   margin-top: 15px;
   padding: 10px;
   align-items: center;
@@ -370,24 +362,9 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-.findhorn-images > .findhorn-lodge {
-  width: auto;
-  height: 300px;
-  margin-top: 15px;
-  padding: 10px;
-  align-items: center;
-  position: relative;
-  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
-}
 
-.findhorn-images > .findhorn-waste {
-  width: auto;
-  height: 300px;
-  margin-top: 15px;
-  padding: 10px;
-  align-items: center;
-  position: relative;
-  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+.research-overview{
+  color: whitesmoke;
 }
 
 /* resume styles */
@@ -398,7 +375,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
-  border: teal solid 10px;
+  outline-color: teal;
+  outline-style: outset;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
