@@ -24,7 +24,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  overflow: auto;
+  
 
 }
 .main-bg-color {
@@ -44,22 +44,21 @@ body {
   border-radius: 2px;
   font-size: 0.9em;
   margin-left: 60px;
-  margin-right: 60px;
+  margin-right: 160px;
   color: whitesmoke;
 }
 
 .bottom-nav-wrapper {
   position: fixed;
   font-size: 0.8em;
-  bottom: 0;
+  bottom: 10px;
   color: whitesmoke;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   color: whitesmoke;
@@ -103,11 +102,24 @@ body {
   color: white !important;
 }
 
+.logo{
+  height: 50px;
+  width: 50%;
+}
+
+.logo img {
+  height: 120px;
+}
+
+/*Body stylings*/
+.portfolio-content-wrapper{
+  overflow: auto;
+}
+
 .top-half{
     position:absolute;
     left: 0px;
     top:100px;
-    
     height: 50%;
     width: 100%;
 }

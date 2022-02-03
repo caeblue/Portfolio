@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@600&family=Russo+One&display=swap);
 html * {
   font-family: "Dosis", serif;
+  
 }
 
 a:visited {
@@ -17,6 +18,7 @@ a {
 body {
   margin: 0px;
   background-color: rgb(54, 51, 51);
+  overflow: auto;
 }
 
 .container {
@@ -40,22 +42,22 @@ body {
   border-radius: 2px;
   font-size: 0.9em;
   margin-left: 60px;
-  margin-right: 60px;
+  margin-right: 200px;
   color: whitesmoke;
 }
 
 .bottom-nav-wrapper {
   position: fixed;
   font-size: 0.8em;
-  bottom: 0;
+  bottom: auto;
+  bottom: 10px;
   color: whitesmoke;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   color: whitesmoke;
@@ -99,7 +101,21 @@ body {
   color: white !important;
 }
 
+.logo{
+  height: 50px;
+  width: 50%;
+}
+
+.logo img {
+  height: 120px;
+}
+
 /*Index styles*/
+
+.index-content-wrapper{
+  padding-top: 100px;
+}
+
 .image-stack {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -115,18 +131,22 @@ body {
 }
 
 .image-stack > .top-image > img {
-  width: 550px;
+  width: 700px;
   border-radius: 5% 20%;
   filter: drop-shadow(0 0 10px rgb(58, 57, 57));
+  outline-color: rgb(245, 245, 245);
+  outline-style: inset;
 }
 
 .image-stack > .bottom-image {
   grid-column: 8 / -2;
   grid-row: 1;
-  width: 530px;
-  height: 450px;
+  width: 700px;
+  height: 600px;
   border-radius: 5% 20%;
   background-color: rgb(2, 105, 105);
+  outline-color: rgba(245, 245, 245, 0.233);
+  outline-style: inset;
 }
 
 .image-stack > .intro-decor {
@@ -140,8 +160,8 @@ body {
   /*circle build*/
   grid-column: 1 / span 2;
   grid-row: 1;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   filter: drop-shadow(0 0 10px rgba(31, 30, 30, 0.719));
   background-color: rgb(92, 92, 92);
   display: table-cell;
@@ -150,6 +170,7 @@ body {
   font-size: 1.2em;
   vertical-align: middle;
   text-align: center;
+  
 }
 
 .image-stack > .introduction-phrase > .text-wrap {
@@ -166,22 +187,27 @@ body {
 .image-stack > .introduction-phrase > .text-wrap > h2 {
   font-family: "Russo One" !important;
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
-.text-wrap > a {
-  color: rgb(219, 218, 218) !important;
+.image-stack > .introduction-phrase > .text-wrap > p {
+  font-family: "Russo One" !important;
   font-weight: lighter;
-  text-decoration: none;
-  transition: 0.5s;
+  color: #d4d3d3;
+  font-size: 0.9em;
 }
 
-.text-wrap > a:hover {
-  cursor: pointer;
-  color: white !important;
-  text-decoration: underline;
-  font-size: 26px;
+.image-stack > .introduction-phrase > .text-wrap > a {
+  font-family: "Russo One" !important;
+  font-weight: lighter;
+  color: whitesmoke;
+  transition: 1s;
 }
+.image-stack > .introduction-phrase > .text-wrap > a:hover {
+  transition: 1s;
+  font-size: 1.1em;
+}
+
 
 /*Research styles*/
 
@@ -192,11 +218,12 @@ body {
   grid-template-rows: minmax(auto);
 }
 .column-1 {
+  float: left;
+  width: 40%;
   grid-area: auto;
   align-content: center;
   font-size: 1.4em;
-  margin-left: 20px;
-  margin-right: 20px;
+  left: 10px;
   text-align: center;
   color: whitesmoke;
 }
@@ -208,11 +235,12 @@ body {
 }
 
 .column-2 {
+  float: right;
+  width: 40%;
+  right: 10px;
   grid-area: auto;
   align-content: center;
   font-size: 1.4em;
-  margin-left: 20px;
-  margin-right: 20px;
   text-align: center;
   color: whitesmoke;
 }
@@ -364,6 +392,7 @@ body {
 
 /* resume styles */
 .resume-pdf {
+  height: 800px;
   display: table;
   margin-top: 20px;
   margin-left: auto;
@@ -383,18 +412,19 @@ body {
 
 .contact-box {
   background-color: darkcyan;
-  border: 3px white solid;
+  outline-color: rgb(245, 245, 245);
+  outline-style: inset;
   border-radius: 20px;
   margin: 0 auto;
   width: 800px;
-  height: 470px;
+  height: 600px;
   filter: drop-shadow(20px 8px 10px rgba(29, 28, 28, 0.589));
   text-align: center;
   color: whitesmoke;
 }
 
 .contact-box > form {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -422,7 +452,7 @@ body {
   border: 10px solid white;
   border-radius: 3px;
   box-sizing: border-box;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 6x;
   resize: vertical;
   filter: drop-shadow(10px 8px 4px rgba(12, 34, 107, 0.397));
@@ -434,7 +464,7 @@ body {
   border: 5px solid white;
   border-radius: 3px;
   box-sizing: border-box;
-  margin-top: 6px;
+  margin-top: 20px;
   margin-bottom: 6x;
   resize: vertical;
   filter: drop-shadow(10px 4px 4px rgba(12, 34, 107, 0.397));
