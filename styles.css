@@ -409,6 +409,7 @@ body {
   outline-color: teal;
   outline-style: outset;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+  filter: brightness(90%);
 }
 
 /*Contact Page stylings*/

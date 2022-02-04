@@ -154,3 +154,29 @@ body {
 .portfolio-item {
   place-items: center;
 }
+
+.logo-filler {
+  background-image: url(art/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.493);
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.filler > h3 {
+  font-family: monospace;
+  float:right;
+  margin-top: 200px ;
+  letter-spacing: 0.5px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
