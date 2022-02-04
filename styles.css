@@ -181,11 +181,12 @@ body {
 .image-stack > .introduction-phrase > .text-wrap > h1 {
   font-family: "Russo One" !important;
   font-weight: lighter;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .image-stack > .introduction-phrase > .text-wrap > h2 {
   font-family: "Russo One" !important;
+  color: rgb(132, 204, 204);
   font-weight: lighter;
   font-size: 1.3em;
 }
@@ -193,7 +194,7 @@ body {
 .image-stack > .introduction-phrase > .text-wrap > p {
   font-family: "Russo One" !important;
   font-weight: lighter;
-  color: #d4d3d3;
+  color: #c4c4c4;
   font-size: 0.9em;
 }
 
@@ -202,10 +203,12 @@ body {
   font-weight: lighter;
   color: whitesmoke;
   transition: 1s;
+  text-decoration: none;
 }
 .image-stack > .introduction-phrase > .text-wrap > a:hover {
   transition: 1s;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  color: rgb(132, 204, 204);
 }
 
 
