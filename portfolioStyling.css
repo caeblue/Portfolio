@@ -200,7 +200,7 @@ body {
   width: 100%;
 }
 
-.middle-third > .left-half {
+.portfolio-middle > .left-half {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80);
@@ -220,13 +220,13 @@ body {
   text-align: center;
 }
 
-.middle-third > .left-half > a:hover {
+.portfolio-middle > .left-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
 }
 
-.middle-third > .left-half > a {
+.portfolio-middle > .left-half > a {
   font-size: 1.6em;
   position: relative;
   top: 150px;
@@ -237,7 +237,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-.middle-third > .right-half {
+.portfolio-middle > .right-half {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
@@ -255,13 +255,13 @@ body {
   text-align: center;
 }
 
-.middle-third > .right-half > a:hover {
+.portfolio-middle > .right-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
 }
 
-.middle-third > .right-half > a {
+.portfolio-middle > .right-half > a {
   font-size: 1.6em;
   position: relative;
   top: 150px;
@@ -271,7 +271,7 @@ body {
   text-decoration: none;
 }
 
-.bottom-third > .left-half {
+.portfolio-bottom > .left-half {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80);
@@ -292,13 +292,13 @@ body {
   text-align: center;
 }
 
-.bottom-third > .left-half > a:hover {
+.portfolio-bottom > .left-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
 }
 
-.bottom-third > .left-half > a {
+.portfolio-bottom > .left-half > a {
   font-size: 1.6em;
   position: relative;
   top: 150px;
@@ -309,7 +309,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-.bottom-third > .right-half {
+.portfolio-bottom > .right-half {
   position: relative;
   height: 100%;
   width: 40%;
@@ -450,13 +450,17 @@ body {
 }
 
 .header-project > .misc-description {
-  margin-left: 20%;
+  margin-left: 18%;
   height: 220px;
-  width: 60%;
-  background-color: rgb(95, 95, 95);
-  border-radius: 80px 5px;
-  outline-color: teal;
-  outline-style: inset;
+  width: 65%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    border-radius: 80px 5px;
+  outline-color: whitesmoke;
+  outline-style: outset;
   outline-width: thick;
   color: whitesmoke;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
@@ -504,17 +508,17 @@ Police-content-wrapper {
 header {
   margin-top: 10px;
   margin-bottom: 50px;
-  border-top: solid white 5px;
+  margin-left: 10%;
+  margin-right: 10%;
   height: 200px;
-  background-image: linear-gradient(to bottom right, rgb(182, 217, 248), teal);
-}
-
-.UML {
-  outline-color: wheat;
-}
-
-.UML > img {
-  width: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253)),
+    url(https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  clip-path:polygon(0 0, 100% 0, 100% 160px, 80% 200px, 60% 170px, 40% 200px, 20% 140px, 0 200px);
+  border-radius: 20px;
+  color: whitesmoke;
 }
 
 .top-half {
@@ -546,4 +550,51 @@ header {
 
 .police-header {
   text-align: center;
+  color: whitesmoke;
+  font-family: fantasy;
+}
+
+.requirements{
+  padding-top: 8%;
+  text-align: center;
+  filter: brightness(60%);
+  transition: 0.5s ease;
+  
+}
+
+.requirements:hover{
+  filter: brightness(95%);
+  transition: 0.5s ease;
+}
+
+.slideshow{
+text-align: center;
+filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
+}
+
+.slideshow > img {
+ width: 80%;
+ border-radius: 20px;
+ text-align: center;
+ filter: brightness(90%);
+}
+
+.police-info{
+  color: whitesmoke;
+  padding: 10px;
+  height: auto;
+  width: 80%;
+  background-image: linear-gradient(grey,darkgrey);
+  text-align: center;
+  border-radius: 20px 50px;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
+}
+
+.police-info > h2{
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 0.75px;
+  font-size: 1.9em;
+  text-decoration: underline;
 }
