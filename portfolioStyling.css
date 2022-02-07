@@ -17,9 +17,9 @@ a {
 
 body {
   margin: 0px;
+  background-image: linear-gradient(180deg, rgb(94, 90, 90), rgb(54, 51, 51));
   background-color: rgb(54, 51, 51);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -470,7 +470,7 @@ body {
 }
 
 .logo-filler {
-  background-image: url(art/Logo.png);
+  background-image: url(Art/Logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.493);
@@ -496,3 +496,54 @@ body {
 }
 
 /* Police Database */
+
+Police-content-wrapper {
+  overflow: auto;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-top: solid white 5px;
+  height: 200px;
+  background-image: linear-gradient(to bottom right, rgb(182, 217, 248), teal);
+}
+
+.UML {
+  outline-color: wheat;
+}
+
+.UML > img {
+  width: 50%;
+}
+
+.top-half {
+  height: 50%;
+  width: 100%;
+}
+.bottom-half {
+  height: 50%;
+  width: 100%;
+}
+
+.police-content > .right-half {
+  height: auto;
+  width: 48%;
+  float: right;
+}
+
+.police-content > .left-half {
+  height: auto;
+  width: 48%;
+  float: left;
+}
+
+.Police-overview {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: auto;
+}
+
+.police-header {
+  text-align: center;
+}
