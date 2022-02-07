@@ -18,15 +18,13 @@ a {
 body {
   margin: 0px;
   background-color: rgb(54, 51, 51);
-  box-sizing:border-box;
-    -moz-box-sizing:border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  
-
 }
 .main-bg-color {
   padding-top: 20px;
@@ -96,13 +94,14 @@ body {
 }
 .nav-link-wrapper a:hover {
   color: white;
+  cursor: pointer;
 }
 
 .active-nav-link a {
   color: white !important;
 }
 
-.logo{
+.logo {
   height: 50px;
   width: 50%;
 }
@@ -112,21 +111,11 @@ body {
 }
 
 /*Body stylings*/
-.portfolio-content-wrapper{
+.portfolio-content-wrapper {
   overflow: auto;
 }
 
-.top-third{
-  position:absolute;
-  left: 0px;
-  top:100px;
-  height: 33%;
-  width: 90%;
-  margin-left: 100px;
-  margin-right: 300px;
-}
-
-.Portfolio-header{
+.Portfolio-header {
   background-color: rgb(95, 95, 95);
   height: 200px;
   width: 50%;
@@ -137,6 +126,7 @@ body {
   outline-style: inset;
   filter: drop-shadow(0 0 10px rgb(27, 27, 27));
   margin-left: 25%;
+  cursor: default;
 }
 
 .Portfolio-header > h1 {
@@ -161,7 +151,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-.span_1{
+.span_1 {
   transition: 0.5s;
 }
 .span_1:hover {
@@ -169,7 +159,7 @@ body {
   background-color: cornflowerblue;
 }
 
-.span_2{
+.span_2 {
   transition: 0.5s;
 }
 .span_2:hover {
@@ -177,15 +167,24 @@ body {
   background-color: rgb(108, 153, 110);
 }
 
-.span_3{
+.span_3 {
   transition: 0.5s;
 }
 .span_3:hover {
   transition: 0.5s;
   background-color: rgb(170, 101, 124);
 }
-  
-.middle-third{
+
+.top-third {
+  position: absolute;
+  left: 0px;
+  height: 33%;
+  width: 90%;
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+.middle-third {
   position: absolute;
   left: 0px;
   height: 33%;
@@ -193,7 +192,7 @@ body {
   top: 400px;
 }
 
-.bottom-third{
+.bottom-third {
   position: absolute;
   left: 0px;
   top: 800px;
@@ -201,9 +200,10 @@ body {
   width: 100%;
 }
 
-.middle-third > .left-half{
+.middle-third > .left-half {
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1526666361175-e3595627c376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80);
   background-size: cover;
   filter: drop-shadow(0 0 10px rgba(34, 33, 33, 0.61));
   background-repeat: no-repeat;
@@ -220,7 +220,7 @@ body {
   text-align: center;
 }
 
-.middle-third > .left-half > a:hover{
+.middle-third > .left-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
@@ -237,9 +237,10 @@ body {
   letter-spacing: 0.5px;
 }
 
-.middle-third > .right-half{
+.middle-third > .right-half {
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-size: cover;
   filter: drop-shadow(0 0 10px rgb(34, 33, 33));
   background-repeat: no-repeat;
@@ -254,7 +255,7 @@ body {
   text-align: center;
 }
 
-.middle-third > .right-half > a:hover{
+.middle-third > .right-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
@@ -270,9 +271,10 @@ body {
   text-decoration: none;
 }
 
-.bottom-third > .left-half{
+.bottom-third > .left-half {
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80);
   background-size: cover;
   filter: drop-shadow(0 0 10px rgb(34, 33, 33));
   background-repeat: no-repeat;
@@ -290,7 +292,7 @@ body {
   text-align: center;
 }
 
-.bottom-third > .left-half > a:hover{
+.bottom-third > .left-half > a:hover {
   font-size: 190%;
   color: rgb(132, 204, 204);
   transition: 0.5s;
@@ -307,18 +309,16 @@ body {
   letter-spacing: 0.5px;
 }
 
-.bottom-third > .right-half{
-
+.bottom-third > .right-half {
   position: relative;
   height: 100%;
   width: 40%;
   bottom: 50px;
   float: right;
   margin-right: 40px;
-  
 }
 
-.github-circle{
+.github-circle {
   background-color: rgb(95, 95, 95);
   height: 300px;
   width: 300px;
@@ -329,7 +329,7 @@ body {
   margin-left: 150px;
 }
 
-.decor{
+.decor {
   position: absolute;
   background-color: teal;
   height: 100px;
@@ -345,7 +345,7 @@ body {
   border-radius: 50%;
 }
 
-.github-link > a:hover{
+.github-link > a:hover {
   font-size: 1.8em;
   color: rgb(132, 204, 204);
   transition: 0.5s;
@@ -374,107 +374,99 @@ body {
   letter-spacing: 1px;
 }
 
-
 /* Other Projects Styling*/
-.misc-content-wrapper{
+.misc-content-wrapper {
   overflow: auto;
   margin-bottom: 20px;
 }
-.other-project{
+.other-project {
   outline-color: aliceblue;
   width: auto;
   height: 350px;
 }
 
-.header-project{
-  outline-color: aliceblue;
+.header-project {
   width: auto;
   height: 250px;
   text-align: center;
 }
 
-.other-project > .left-third {
-  float: left;
+.other-project > .right-side {
+  width: 48%;
   height: 100%;
-  width: 30%;
-}
-
-.other-project > .middle-third{
-  height: 100%;
-  width: 30%;
-}
-
-.other-project > .right-third {
+  float: right;
   position: relative;
-  float: right;
+}
+
+.other-project > .left-side {
+  width: 48%;
   height: 100%;
-  width: 30%;
+  position: relative;
 }
 
-.other-project > .right-third > img {
+.offset {
+  margin-left: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.other-project > .right-side > img {
   width: auto;
   height: 90%;
   transition: 1s ease;
   outline-color: whitesmoke;
   outline-style: inset;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.747));
 }
 
-.other-project >.left-third > img {
+.other-project > .left-side > img {
   width: auto;
   height: 90%;
   transition: 1s ease;
   outline-color: whitesmoke;
   outline-style: inset;
+  margin-left: 50%;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
 }
 
-.other-project >.left-third > img:hover {
- -webkit-transform: scale(2.3);
- transform: scale(2.3);
- transition: 1s ease;
-}
-
-.other-project > .left-third > p{
-  float: right;
-  height: 50%;
-  width: auto;
-  background-color: thistle;
-}
-
-.other-project >.middle-third > img {
-  width: auto;
-  height: 50%;
-  transition: 1s ease;
-  outline-color: whitesmoke;
-  outline-style: inset;
-}
-
-.other-project >.middle-third > img:hover {
- -webkit-transform: scale(2.3);
- transform: scale(2.3);
- transition: 1s ease;
-}
-
-.other-project >.right-half > img:hover {
+.other-project > .right-side > img:hover {
   -webkit-transform: scale(2.3);
   transform: scale(2.3);
   transition: 1s ease;
- }
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
 
-.header-project > .misc-description{
-  margin-left: 400px;
-  height: 200px;
-  width: 50%;
+.other-project > .left-side > img:hover {
+  -webkit-transform: scale(2.3);
+  transform: scale(2.3);
+  transition: 1s ease;
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.header-project > .misc-description {
+  margin-left: 20%;
+  height: 220px;
+  width: 60%;
   background-color: rgb(95, 95, 95);
   border-radius: 80px 5px;
-  outline-color: whitesmoke;
+  outline-color: teal;
   outline-style: inset;
   outline-width: thick;
+  color: whitesmoke;
+  filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
 .header-project > .misc-description > h1 {
   font-family: fantasy;
   font-weight: lighter;
-  text-decoration: underline;
+  text-transform: uppercase;
+  padding-top: 10px;
 }
 
 .logo-filler {
@@ -485,13 +477,22 @@ body {
   height: 250px;
   width: 250px;
   float: right;
-  margin-right: 50px
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
 }
 
 .filler > h3 {
-  color: whitesmoke;
   font-family: monospace;
-  float:right;
-  margin-top: 200px ;
+  float: right;
+  margin-top: 200px;
   letter-spacing: 0.5px;
+  color: whitesmoke;
 }
+
+.circle {
+  border-radius: 50%;
+}
+
+/* Police Database */

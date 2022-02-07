@@ -56,7 +56,6 @@ body {
 .left-side {
   display: flex;
   font-weight: 150;
-  
 }
 
 .nav-wrapper > .left-side > div {
@@ -82,6 +81,7 @@ body {
 }
 .nav-link-wrapper a:hover {
   color: white;
+  cursor: pointer;
 }
 
 .active-nav-link a {
@@ -97,7 +97,7 @@ body {
   z-index: 1;
 }
 
-.logo{
+.logo {
   height: 50px;
 }
 .logo img {
@@ -106,7 +106,8 @@ body {
 
 /*portfolio styles*/
 
-.portfolio-content-wrapper > .portfolio-text > h1,h2 {
+.portfolio-content-wrapper > .portfolio-text > h1,
+h2 {
   font-family: fantasy !important;
   font-weight: lighter;
   border-bottom: 1px solid white;
@@ -114,11 +115,13 @@ body {
   text-align: center;
   margin: 10px;
   letter-spacing: 0.7px;
+  cursor: default;
 }
 .portfolio-content-wrapper > .portfolio-text > p {
   text-align: center;
   font-weight: lighter;
   font-size: 1.3em;
+  cursor: default;
 }
 
 .portfolio-content-wrapper {
@@ -171,12 +174,11 @@ body {
 
 .filler > h3 {
   font-family: monospace;
-  float:right;
-  margin-top: 200px ;
+  float: right;
+  margin-top: 200px;
   letter-spacing: 0.5px;
 }
 
 .circle {
   border-radius: 50%;
 }
-

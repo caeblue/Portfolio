@@ -1,7 +1,7 @@
 # Portfolio
 
 Casey Blue's website to hold resumes, art portfolio, and research topics </br>
-all images taken by me unless stated otherwise!
+all images, art and gifs taken/drawn by myself unless stated otherwise!</br>
 
 Images for Findhorn page:</br>
 https://en.wikipedia.org/wiki/File:FindhornLM.jpg </br>

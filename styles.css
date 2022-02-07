@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@600&family=Russo+One&display=swap);
 html * {
   font-family: "Dosis", serif;
-  
 }
 
 a:visited {
@@ -95,13 +94,14 @@ body {
 }
 .nav-link-wrapper a:hover {
   color: white;
+  cursor: pointer;
 }
 
 .active-nav-link a {
   color: white !important;
 }
 
-.logo{
+.logo {
   height: 50px;
   width: 50%;
 }
@@ -112,7 +112,7 @@ body {
 
 /*Index styles*/
 
-.index-content-wrapper{
+.index-content-wrapper {
   padding-top: 100px;
 }
 
@@ -170,7 +170,7 @@ body {
   font-size: 1.2em;
   vertical-align: middle;
   text-align: center;
-  
+  cursor: default;
 }
 
 .image-stack > .introduction-phrase > .text-wrap {
@@ -211,18 +211,17 @@ body {
   color: rgb(132, 204, 204);
 }
 
-
 /*Research styles*/
 
-.top-half{
-  position:absolute;
+.top-half {
+  position: absolute;
   left: 0px;
-  top:100px;
+  top: 100px;
   height: 50%;
   width: 100%;
 }
-  
-.bottom-half{
+
+.bottom-half {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -232,7 +231,6 @@ body {
 
 .research-content-wrapper {
   color: whitesmoke;
-  
 }
 .column-1 {
   float: left;
@@ -242,13 +240,13 @@ body {
   text-align: center;
   color: whitesmoke;
   padding-left: 80px;
+  cursor: default;
 }
 
 .column-1 > h1 {
   font-family: fantasy;
   font-weight: lighter;
   margin-left: 10px;
-  
 }
 
 .column-2 {
@@ -259,6 +257,8 @@ body {
   font-size: 1.4em;
   text-align: center;
   color: whitesmoke;
+  cursor: default;
+  cursor: default;
 }
 
 .column-2 > h1 {
@@ -270,7 +270,6 @@ body {
 .decor {
   border-bottom: 1px solid white;
 }
-
 
 .eri-button {
   display: block;
@@ -346,7 +345,6 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-
 .findhorn-images {
   margin-top: 15px;
   padding: 10px;
@@ -354,7 +352,6 @@ body {
   position: relative;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
-
 
 .findhorn-images > img {
   width: 48%;
@@ -366,9 +363,8 @@ body {
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
 
-
-.Research-overview{
-  top:50px;
+.Research-overview {
+  top: 50px;
   color: whitesmoke;
   height: 150px;
   width: 50%;
@@ -382,10 +378,10 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   filter: drop-shadow(10px 6px 10px rgba(29, 28, 28, 0.589));
+  cursor: default;
 }
 
-.Research-overview > h2 
-{
+.Research-overview > h2 {
   padding-top: 10px;
   font-family: fantasy;
   font-weight: lighter;
@@ -448,12 +444,14 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-bottom: solid white 1px;
+  cursor: default;
 }
 
 .contact-box > p {
   font-size: 1.3em;
   font-weight: lighter;
   letter-spacing: 0.5px;
+  cursor: default;
 }
 
 .bigger-input {
@@ -495,6 +493,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.8px;
   color: rgb(1, 70, 70);
+  cursor: pointer;
 }
 
 /*thank you page*/
@@ -506,6 +505,33 @@ body {
   width: 300px;
   height: 300px;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
+}
+
+.logo-filler {
+  background-image: url(art/waving-gif.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90%;
+  background-color: rgba(0, 0, 0, 0.493);
+  height: 350px;
+  width: 350px;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.filler > h3 {
+  font-family: monospace;
+  float: right;
+  margin-top: 200px;
+  letter-spacing: 0.5px;
+  color: #c2c2c2;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 .thank-decor > h1 {
@@ -525,6 +551,3 @@ body {
   text-align: center;
   font-size: 1.2em;
 }
-
-
-
