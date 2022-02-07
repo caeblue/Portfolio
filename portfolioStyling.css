@@ -129,14 +129,14 @@ body {
 .Portfolio-header{
   background-color: rgb(95, 95, 95);
   height: 200px;
-  width: 900px;
+  width: 50%;
   color: whitesmoke;
   text-align: center;
   border-radius: 20px 100px;
   outline-color: rgba(245, 245, 245, 0.411);
   outline-style: inset;
   filter: drop-shadow(0 0 10px rgb(27, 27, 27));
-  margin-left: 450px;
+  margin-left: 25%;
 }
 
 .Portfolio-header > h1 {
@@ -390,47 +390,91 @@ body {
   outline-color: aliceblue;
   width: auto;
   height: 250px;
+  text-align: center;
 }
 
-.other-project > .left-half {
+.other-project > .left-third {
   float: left;
   height: 100%;
-  width: 49%;
+  width: 30%;
 }
 
-.other-project > .right-half {
+.other-project > .middle-third{
+  height: 100%;
+  width: 30%;
+}
+
+.other-project > .right-third {
   position: relative;
   float: right;
   height: 100%;
-  width: 49%;
+  width: 30%;
 }
 
-.other-project > .right-half > .project-description {
-  height: 200px;
-  width: 600px;
-  background-color: antiquewhite;
-}
-
-.other-project >.left-half > img {
+.other-project > .right-third > img {
   width: auto;
   height: 90%;
-  margin-left: 300px;
   transition: 1s ease;
   outline-color: whitesmoke;
-  outline-style: inset
+  outline-style: inset;
 }
 
-.other-project >.left-half > img:hover {
+.other-project >.left-third > img {
+  width: auto;
+  height: 90%;
+  transition: 1s ease;
+  outline-color: whitesmoke;
+  outline-style: inset;
+}
+
+.other-project >.left-third > img:hover {
  -webkit-transform: scale(2.3);
  transform: scale(2.3);
  transition: 1s ease;
 }
 
+.other-project > .left-third > p{
+  float: right;
+  height: 50%;
+  width: auto;
+  background-color: thistle;
+}
+
+.other-project >.middle-third > img {
+  width: auto;
+  height: 50%;
+  transition: 1s ease;
+  outline-color: whitesmoke;
+  outline-style: inset;
+}
+
+.other-project >.middle-third > img:hover {
+ -webkit-transform: scale(2.3);
+ transform: scale(2.3);
+ transition: 1s ease;
+}
+
+.other-project >.right-half > img:hover {
+  -webkit-transform: scale(2.3);
+  transform: scale(2.3);
+  transition: 1s ease;
+ }
+
 .header-project > .misc-description{
   margin-left: 400px;
   height: 200px;
-  width: 1000px;
-  background-color: #8a8a8a;
+  width: 50%;
+  background-color: rgb(95, 95, 95);
+  border-radius: 80px 5px;
+  outline-color: whitesmoke;
+  outline-style: inset;
+  outline-width: thick;
+}
+
+.header-project > .misc-description > h1 {
+  font-family: fantasy;
+  font-weight: lighter;
+  text-decoration: underline;
 }
 
 .logo-filler {
