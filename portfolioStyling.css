@@ -507,7 +507,7 @@ Police-content-wrapper {
 
 header {
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 10%;
   margin-right: 10%;
   height: 200px;
@@ -532,13 +532,13 @@ header {
 
 .police-content > .right-half {
   height: auto;
-  width: 48%;
+  width: 50%;
   float: right;
 }
 
 .police-content > .left-half {
   height: auto;
-  width: 48%;
+  width: 50%;
   float: left;
 }
 
@@ -555,7 +555,7 @@ header {
 }
 
 .requirements{
-  padding-top: 8%;
+  padding-top: 4%;
   text-align: center;
   filter: brightness(60%);
   transition: 0.5s ease;
@@ -588,6 +588,8 @@ filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
   text-align: center;
   border-radius: 20px 50px;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
+  outline-color: whitesmoke ;
+  outline-style: inset;
 }
 
 .police-info > h2{
@@ -597,4 +599,149 @@ filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
   letter-spacing: 0.75px;
   font-size: 1.9em;
   text-decoration: underline;
+}
+
+/* OCLC database styling*/
+
+.library-content-wrapper{
+  overflow: auto;
+  color: whitesmoke;
+}
+
+.OCLC-top{
+  padding-top: 2%;
+  text-align: center;
+}
+
+.OCLC-top > .left-half {
+  width: 48%;
+  height: auto;
+  float: left;
+}
+
+.OCLC-top > .right-half {
+  width: 48%;
+  height: auto;
+  float: right;
+}
+
+.OCLC-top > .library-slideshow > img {
+  width: 100%;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.87));
+  outline-color: whitesmoke;
+  outline-style: inset;
+  outline-width: 5px;
+}
+
+
+.capstone-team{
+  float: left;
+  padding: 2px;
+  background-color: #8a8a8a;
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  outline-color: whitesmoke;
+  outline-style: outset;
+  outline-width: 2px;
+  filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.767));
+}
+
+.capstone-team > h3 {
+  font-family: fantasy;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  text-decoration: underline;
+}
+
+.capstone-team > ul {
+  margin-right:10%;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+
+.oclc-tech{
+  float: right;
+  padding: 2px;
+  background-color: #8a8a8a;
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  outline-color: whitesmoke;
+  outline-style: outset;
+  outline-width: 2px;
+  filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.87));
+}
+
+.oclc-tech > h3 {
+  font-family: fantasy;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  text-decoration: underline;
+}
+
+.oclc-tech > ul {
+  margin-right:10%;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.OCLC-middle {
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  text-align: center;
+  top: 600px;
+  background-image: linear-gradient( 180deg,#919090, #4d4c4c);
+  border-radius: 20px 50px;
+  filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.87));
+  outline-color: whitesmoke;
+  outline-style: outset;
+  outline-width: 2px;
+  font-size: large;
+}
+
+.oclc-wiki > h2 {
+  font-family: fantasy;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+} 
+
+.oclc-wiki > p {
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+
+.OCLC-bottom{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.OCLC-bottom > .right-half {
+  width: 48%;
+  height: auto;
+  float: right;
+}
+
+.OCLC-bottom > .left-half {
+  width: 48%;
+  height: auto;
+  float: left;
+}
+
+.OCLC-bottom > .right-half > img {
+  padding: 30px;
+  border-radius: 20%;
+  filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.726));
+}
+
+.time-line{
+  text-align: center;
+  padding-top: 30px;
 }
