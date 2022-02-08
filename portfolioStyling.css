@@ -751,6 +751,7 @@ filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
 }
 
 .time-line > img {
+  width:auto;
   margin-left: 15%;
 }
 
@@ -792,6 +793,7 @@ filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.76));
 }
 
 .live-gif > img {
+  width: 50%;
   margin-top: 80px;
   border-radius: 20px;
   filter: drop-shadow(0 0 15px rgba(29, 28, 28, 0.87));
