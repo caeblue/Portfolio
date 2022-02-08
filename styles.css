@@ -335,7 +335,6 @@ body {
   height: auto;
   margin-top: 15px;
   padding: 10px;
-  align-items: center;
   position: relative;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
@@ -353,7 +352,6 @@ body {
   height: auto;
   margin-top: 15px;
   padding: 10px;
-  align-items: center;
   position: relative;
   filter: drop-shadow(0 0 10px rgba(29, 28, 28, 0.589));
 }
